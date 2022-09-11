@@ -100,6 +100,123 @@ to make the web faster, safer, and more open.
 * [Truffle Framework](http://truffleframework.com/) - Truffle is the most popular development framework for Ethereum with a mission to make your life a whole lot easier.
 
 
+## Deployment Information 
+
+### Rinkeby network
+
+```
+Deploying 'FarmerRole'
+   ----------------------
+   > transaction hash:    0xe9ca1fc5883b03ae6e7b6d75e7ef3f43d65ecf4738cc520630fadc240b3817ca
+   > Blocks: 0            Seconds: 5
+   > contract address:    0x692AFD8EDd63cd2f82f90C380e50F685EA48c049
+   > block number:        11360605
+   > block timestamp:     1662883945
+   > account:             0x623a6151C089CE0D8FFa5ee8640b2B8A3Ab7ed13
+   > balance:             0.296204507979757376
+   > gas used:            306684 (0x4adfc)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000460026002453472 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 11360606)
+   > confirmation number: 2 (block: 11360607)
+
+   Deploying 'DistributorRole'
+   ---------------------------
+   > transaction hash:    0x240c13c5a455d3b7b272a916c16454ec93477d7ac63207b2930b66b5cfae935c
+   > Blocks: 1            Seconds: 9
+   > contract address:    0xF2CfEf33ce5a6B2D935Ec7d9374c07293446f576
+   > block number:        11360608
+   > block timestamp:     1662883990
+   > account:             0x623a6151C089CE0D8FFa5ee8640b2B8A3Ab7ed13
+   > balance:             0.295744499977304
+   > gas used:            306672 (0x4adf0)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000460008002453376 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 11360609)
+   > confirmation number: 2 (block: 11360610)
+
+   Deploying 'RetailerRole'
+   ------------------------
+   > transaction hash:    0x1159746b2b48628c8baa04d822f6db67b97e27cb2cb7c55b1710510a98c1888d
+   > Blocks: 0            Seconds: 9
+   > contract address:    0x51f3D91b78d018D134fa03894D4a655d25C50D99
+   > block number:        11360611
+   > block timestamp:     1662884035
+   > account:             0x623a6151C089CE0D8FFa5ee8640b2B8A3Ab7ed13
+   > balance:             0.295284491974850624
+   > gas used:            306672 (0x4adf0)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000460008002453376 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 11360612)
+   > confirmation number: 2 (block: 11360613)
+
+   Deploying 'ConsumerRole'
+   ------------------------
+   > transaction hash:    0x2587144f2cae470e15ef1ba1eb88343255234619bbf6f1c7b6b3cd3cafb35668
+   > Blocks: 0            Seconds: 9
+   > contract address:    0x772E5C0a31Ed0CE1020851659e8dD5cD790038bE
+   > block number:        11360614
+   > block timestamp:     1662884080
+   > account:             0x623a6151C089CE0D8FFa5ee8640b2B8A3Ab7ed13
+   > balance:             0.294824465972397152
+   > gas used:            306684 (0x4adfc)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.000460026002453472 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 11360615)
+   > confirmation number: 2 (block: 11360616)
+
+   Deploying 'SupplyChain'
+   -----------------------
+   > transaction hash:    0x489dbc421137451a99cf3085a16296baa7bcd7e252cd17d02e03668da0ff01f1
+   > Blocks: 1            Seconds: 9
+   > contract address:    0x7fb78422AAd4479141112B681b378Fd31C03aC0B
+   > block number:        11360617
+   > block timestamp:     1662884125
+   > account:             0x623a6151C089CE0D8FFa5ee8640b2B8A3Ab7ed13
+   > balance:             0.291009106452048568
+   > gas used:            2543573 (0x26cfd5)
+   > gas price:           1.500000008 gwei
+   > value sent:          0 ETH
+   > total cost:          0.003815359520348584 ETH
+
+   Pausing for 2 confirmations...
+
+   -------------------------------
+   > confirmation number: 1 (block: 11360618)
+   > confirmation number: 2 (block: 11360619)
+   > Saving migration to chain.
+   > Saving artifacts
+   -------------------------------------
+   > Total cost:     0.00565542753016228 ETH
+
+Summary
+=======
+> Total deployments:   6
+> Final cost:          0.00599521503197448 ETH
+```
+
+
+
 ## Authors
 
 See also the list of [contributors](https://github.com/your/project/contributors.md) who participated in this project.
